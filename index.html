@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card scor</title>
+    <style>
+        body{
+            background-color: rgb(136, 233, 233);
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            
+        }
+        .section{
+            background-color: rgb(211, 184, 150);
+            border-radius: 10px;
+            margin: 20px;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+        .section-title{
+            border-bottom: 2px solid purple;
+            color: rgb(9, 9, 9);
+        }
+        .card-demo-area{
+            padding: 10px;
+            background-color: rgb(42, 41, 39);
+            border-radius: 20px;
+        }
+        .card{
+            width: 300px;
+            background-color: white;
+            margin: 0 auto;
+            text-align: center;
+            overflow: hidden;
+            border-radius: 10%;
+        }
+        .card-top{
+            background-color: rgb(222, 53, 81);
+            height: 100px;
+
+
+        }
+        .card-botton{
+            padding: 0 20px 20px 20px;
+        }
+        .profile-section{
+            width: 70px;
+            height: 70px;
+        background-color: rgb(230, 222, 222);
+        border-radius: 30%;
+        margin: -35px auto 10px auto; /* Overlaps the pink header */
+            border: 3px solid black; /* Adds white ring around icon */
+        overflow: hidden; Ensures image stays within rounded borders
+        }
+        img{
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+            
+        }
+        h2{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .fav{
+            background-color: #f15268;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <!--this is  card-->
+    <div class="section">
+        <h1 class="section-title">Mini Project 1: Student Profile Card</h1>
+        <p>Putting it all together (Colors, Borders, Radius, Padding, Margin Centering).</p>
+        <div class="card-demo-area">
+            <!--the card-->
+            <div class="card">
+                <div class="card-top"></div>
+                    <div class="card-botton" >
+                        <div class="profile-section">
+                            <img src="./my photo.jpg" alt="">
+                        </div>
+                        <h2>ANSHU KUMAR</h2>
+                    <p class="card-class">Degree • BCA</p>
+                    <p class="fav">Fav: Computer application</p>
+                    </div>
+            </div>
+            </div>
+         </div>
+        </div>
+        
+</body>
+</html>
